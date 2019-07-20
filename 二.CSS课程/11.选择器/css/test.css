@@ -1,0 +1,46 @@
+    /*{
+    color: red
+}*/
+
+
+/*[href="https://www.baidu.com"]{
+    color: red;
+}*/
+
+
+    /*a:link{
+        color: blue;
+    }
+
+    a:visited{
+        color: orange;
+    }
+
+    a:hover{
+        color: green;
+    }
+
+    a:active{
+        color: red;
+    }
+    */
+
+    /* span::before{
+        content: "<";
+    }
+    
+    span::after{
+        content:">";
+    } */
+
+    /* .red .ok {
+        color: red;
+    } */
+
+    .ok{
+        color: red;
+     
+    }
+    .ok~p,h4{
+        color: #008c8c;
+    }

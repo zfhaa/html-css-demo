@@ -1,0 +1,110 @@
+.banner{
+    width: 520px;
+    height: 304px;
+    /* border: 1px solid; */
+    margin: 0 auto;
+    /* 溢出隐藏 */
+    overflow: hidden;
+    /* padding: 30px 0; */
+    position: relative;
+}
+
+.banner .imgs img{
+    width: 520px;
+    height: 304px;
+    float: left;
+    /* position: relative; */
+}
+.banner .imgs{
+    width: 1560px;
+    height: 304px;
+    /* position: relative; */
+}
+
+.banner  .left,
+.banner  .right{
+    position: absolute;
+    background:rgba(0, 0, 0, .5);
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color:#fff;
+ 
+}
+.banner  .right{
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 20px;
+}
+
+.banner  .left{
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 20px;
+    
+}
+
+.banner  .left:hover,
+.banner  .right:hover{
+    color: red;
+    /* 改变光标 */
+    cursor: pointer;
+}
+
+.banner .modal{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    background :rgba(0, 0, 0, .3);
+}
+
+.banner .modal .title{
+    line-height: 30px;
+    
+    float: left;
+    color: #fff;
+    padding-left: 10px;
+    
+}
+
+.banner .modal .dots{
+    float:right;  
+    height: 30px; 
+    margin: 0 auto;
+    /* line-height: 30px;
+    padding-right: 10px; */
+
+}
+.banner .modal .dots ul{
+    margin: 0 auto;
+    padding-right: 10px;
+}
+
+
+
+.banner .modal .dots  li{
+    
+    width: 5px;
+    height: 5px;
+    /* background: #ccc; */
+    border-radius: 50%;
+    /* float: left;
+    line-height: 30px; */
+    display: inline-block;
+    line-height: 30px;
+    background: #fff;
+    padding: 0 1px;
+    margin: 0 auto;
+
+}
+
+.banner .modal .dots  li:hover{
+    background: #ccc;
+}

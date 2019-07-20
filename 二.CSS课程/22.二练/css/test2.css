@@ -1,0 +1,75 @@
+.main{
+    background-color: #008c8c;
+    height: 60px;
+    text-align: center;
+
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main a.nav{
+    color: #999;
+    text-align: center;
+    line-height: 60px;  
+    margin: 0 38px;
+}
+
+.main a:hover{
+    color: #fff;
+}
+.main a:active{
+    color: red;
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+ .container .navigation{
+    /* width: 1120px; */
+    margin: 42px auto;
+    border: 1px solid #e5e5e5;
+    line-height: 1em;
+    padding: 10px 20px;
+
+}
+
+.container .navigation .navigation-kind{
+
+    border-bottom: 1px dotted #999;
+
+}
+.container .navigation .navigation-kind div.no-line{
+    border: none;
+}
+
+
+
+
+
+.container .navigation .navigation-kind .left{
+    float: left;
+    /* margin: 16px 20px; */
+    color: #999;
+    line-height: 2em;
+    
+    
+}
+.container .navigation .navigation-kind .right{
+    float: left;
+   width: 1030px;
+   line-height: 2em;
+}
+
+.container .navigation .navigation-kind .right li{
+    float: left;
+    padding:0 10px 5px 10px;
+    
+}
+
+

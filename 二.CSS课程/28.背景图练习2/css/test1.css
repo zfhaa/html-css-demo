@@ -1,0 +1,33 @@
+body{
+    background: url(../img/bg.jpg) no-repeat 0 0/100%;
+    position: relative;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.menu{
+    text-align: center;
+    margin-top: 700px;
+  
+}
+
+.menu a{
+    float: left;
+    
+    width: 323px;
+    height: 100px;
+    background: red;
+    background: url(../img/./btns.png) no-repeat;
+}
+.menu a.detail{
+    margin-left: 30%;
+}
+.menu a.download{
+    background-position-x: -323px;
+}
+.menu a span{
+    display: none;
+}
+
