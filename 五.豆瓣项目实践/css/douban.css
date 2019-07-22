@@ -1,0 +1,123 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+span{
+    display: none;
+}
+button{
+    cursor: pointer;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.header{
+    height: 98px;  
+   
+}
+.container{
+    width: 950px;
+    margin: 0 auto;
+    
+    padding-top: 30px;
+}
+.container .logo a{
+    width: 160px;
+    height: 34px;
+    display: block;
+    background: url("../img/logo.png") no-repeat 0 0/100%;
+
+}
+
+.container .search  {
+    position: relative;
+    width: 270px;
+    height: 35px;
+    border: 1px solid #999;
+    margin-left: 30px;
+}
+.container .search form .text{
+    width: 250px;
+    height: 35px;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 13px;
+}
+.container .search form .text::placeholder{
+    color: #ccc;
+}
+.search button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 2px;
+    right: 0;
+
+}
+.container .menu{
+    margin-top: 9px;
+}
+/* .container .menu a{  
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    padding-left: 14px;
+    background: url(../img/nav_logo.png)no-repeat;
+}
+
+.container .menu .movie{
+    background:url(../img/nav_logo.png)403px 0;
+}
+.container .menu .music{
+    background:url(../img/nav_logo.png) 344px 0;  
+}
+.container .menu .group{
+    background:url(../img/nav_logo.png)284px 0;
+}
+.container .menu .city{
+    background:url(../img/nav_logo.png)166px 0;
+}
+.container .menu .FM{
+    background:url(../img/nav_logo.png)224px 0;
+}
+.container .menu .time{
+    background:url(../img/nav_logo.png)105px 0;
+}
+.container .menu .doupin{
+    background:url(../img/nav_logo.png)54px 0;
+} */
+
+.container .menu a{  
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    padding-left: 14px;
+    float: left;
+    background: url(../img/nav_logo.png)no-repeat;
+}
+.container .menu .movie{
+    background-position: -60px 0;
+}
+
+.container .menu .music{
+    background-position: -120px 0;
+}
+.container .menu .group{
+    background-position: -180px 0;
+}
+.container .menu .city{
+    background-position: -298px 0; 
+}
+.container .menu .FM{
+    background-position: -240px 0; 
+}
+.container .menu .time{
+    background-position: -358px 0; 
+}
+.container .menu .doupin{
+    background-position: -420px 0; 
+}
