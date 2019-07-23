@@ -15,6 +15,7 @@ button{
 .float-right{
     float: right;
 }
+/* 页头开始 */
 .header{
     height: 98px;  
    
@@ -91,8 +92,8 @@ button{
     background:url(../img/nav_logo.png)54px 0;
 } */
 
+
 .container .menu a{  
-    display: inline-block;
     width: 40px;
     height: 20px;
     padding-left: 14px;
@@ -121,3 +122,86 @@ button{
 .container .menu .doupin{
     background-position: -420px 0; 
 }
+
+/* 页头结束 */
+
+/* 下载和登陆部分开始 */
+.download-login{
+
+    background: #edf4ed;
+    height: 304px;
+    
+}
+.download-login-item{
+    position: relative;
+    width: 950px;
+    height: 304px;
+  
+    margin: 0 auto;
+}
+.download-login-item .download{
+    position: relative;
+    width: 630px;
+    height: 304px;
+}
+.download-login-item .download .img{
+    position: absolute;
+    left: -170px;
+    top: 0;
+    width: 700px;
+    height: 304px;
+    background: url(../3.jpg)no-repeat 0 0/100%;
+    
+}
+
+.download-login-item .download .download-item{
+    position: absolute;
+    right: 0px;
+    top: 89px;
+    bottom: 0;
+    margin: 0 auto;
+    width: 150px;
+    height: 120px;
+}
+.download-login-item .download .download-item .title{
+    font-size: 25px;
+    margin: 7px 0 27px 0;
+    color: #111; 
+}
+.download-login-item .download .download-item .title .version{
+    color: #111;
+    margin-left: 10px;
+    font-weight: 100;
+    display: inline;
+}
+.download-login-item .download .download-item .button-download{
+    width: 115px;
+    height: 28px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    background: #00B51D;
+    color: #fff;
+    font-size: 12px;
+}
+
+.download-login-item .download .download-item .QR{
+    border: 1px solid #00B51D;
+    border-radius: 2px;
+    box-sizing: border-box;
+    background: url(../img/4.png)no-repeat 0 0/100%;
+    top: 60px;
+    right: 0;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+}
+.download-login .download-login-item .login{
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 280px;
+   height: 300px;
+   background: #999;
+}
+
+/* 下载和登陆部分结束 */
