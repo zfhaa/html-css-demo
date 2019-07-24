@@ -1,0 +1,337 @@
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.hidden{
+    display: none;
+}
+
+.container{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    padding-top: 30px;
+   
+    box-sizing: border-box;
+}
+/* 短信登陆 */
+.container .login{
+    width: 280px;
+    font-size: 0;
+}
+.container .login .login-sms,
+.login-password{
+    width: 140px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    line-height: 28px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    color: #9b9b9b;
+    font-size: 13px;
+    cursor: pointer;
+}
+.container .login .login-sms.select-sms{
+    font-weight: bolder;
+    color: black;
+    border-bottom: 1px solid;
+}
+
+.container .protocol{
+    font-size: 12px;
+    padding: 13px 0;
+    width: 280px;
+}
+.container .protocol .portocol-item{
+    color: #9b9b9b;
+}
+.container .protocol .portocol-item a{
+    color: #41ac52;
+}
+form .form-item .text,
+.password{
+    border-radius: 3px;
+    width: 280px;
+    height: 32px;
+    border: 1px solid #9b9b9b;
+    box-sizing: border-box;
+    margin-bottom: 13px;
+    /* line-height: 32px; */
+}
+form .form-item .text{
+    position: relative;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+form .form-item .password{
+    position: relative;
+    padding: 0 10px;
+}
+form .form-item .password .get{
+    position: absolute;
+    width: 85px;
+    height: 30px;
+    right: 0;
+    top: 0;
+    font-size: 13px;
+    color: #41ac52;
+    text-align: center;
+    line-height: 30px;
+}
+form .form-item .text .area .num{
+    left: 0;
+    top: 0px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+    font-size: 13px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+form .form-item .text .text-item{
+    margin-top: 7px;
+    font-size: 13px;
+}
+form .form-item .password .password-item{
+    margin-top: 7px;
+    font-size: 13px;
+}
+
+form .form-item .text .area .country-area{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(255, 255,255,0.5);
+    left: 0;
+    top: 0;
+    z-index: 1; 
+}
+ 
+form .form-item .text .area .country-area .country-area-item{
+    width: 285px;
+    height: 225px;
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+   
+}
+form .form-item .text .area .country-area .country-area-item .title{
+    background: #ebf5eb;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 10px;
+    color: #060;
+    font-weight: bolder;
+}
+form .form-item .text .area .country-area .country-area-item .where{
+    width: 285px;
+    height: 183px;
+    background: #fff;
+    overflow: auto;
+    padding: 15px;
+    line-height: 32px;
+    box-sizing: border-box;
+}
+form .form-item .text .area .country-area .country-area-item .where ul{
+    width: 255px;
+    height: 155px;
+}
+
+form .form-item .text .area .country-area .country-area-item .where ul li{
+    border-bottom: 1px solid #ccc;
+    font-size: 13px;
+    cursor: pointer;
+}
+form .form-item .text .area .country-area .country-area-item .where ul li:first-child{
+    border-top:1px solid #ccc;
+    color: #41ac52; 
+}
+form .form-item .text .area .country-area .country-area-item .where ul li:first-child .right{
+    color: inherit;
+}
+form .form-item .text .area .country-area .country-area-item .where ul li .left{
+    float: left;
+    font-weight: bolder;
+}
+form .form-item .text .area .country-area .country-area-item .where ul li .right{
+    float: right;
+    color: #aaa;
+}
+
+form .form-item .button{
+    width: 280px;
+    height: 32;
+    background: #41ac52;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 32px;
+}
+form .form-item .button button{
+    display: inline-block;
+    width: 80px;
+    padding-right: 16px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+}
+form .form-item .checkbox{
+    position: relative;
+    font-size: 13px;
+    margin: 10px 0;
+}
+form .form-item .checkbox .fail{
+    position: absolute;
+    right: 0;
+    top: 4px;
+    color: #41ac52;
+}
+.container .other{
+    color: #9b9b9b;
+    font-size: 11px;
+    height: 32px;
+    margin-top: 15px;
+    border-top: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.container .other .other-login{
+    /* padding-top: 9px; */
+    margin-top: 8px;
+}
+
+.container .other .other-login span{
+    /* display: inline-block; */
+    vertical-align: 4px;
+}
+.container .other .icon-weibo{
+    color:rgb(245, 83, 83);
+    font-size: 20px;
+    padding-left: 15px;
+}
+.container .other .icon-weixin{
+    color: green;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+/* 二维码登录 */
+.QR-login{
+    width: 280px;
+    height: 260px;
+    position: relative;
+}
+.QR-login .QR-login-item{
+    height: 27px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.QR-login .QR {
+    display: block;
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+}
+.QR-login .QR-item{
+    width: 180px;
+    height: 25px;
+    text-align: center;
+    margin: 15px 50px;
+    font-size: 13px;
+    background: rgba(0,0,0,.08);
+    border-radius: 12px;
+    line-height: 25px;
+}
+
+
+/* 密码登陆 */
+.container .find{
+    font-size: 12px;
+    padding: 13px 0;
+    text-align: right;
+    width: 280px;
+}
+.container .find .find-password a{
+    color: #41ac52;
+}
+.text,
+.password{
+    border-radius: 3px;
+    width: 280px;
+    height: 32px;
+    border: 1px solid #9b9b9b;
+    box-sizing: border-box;
+    margin-bottom: 13px;
+    /* line-height: 32px; */
+    padding: 0 10px;
+}
+.text .text-item{
+    margin-top: 7px;
+    font-size: 13px;
+}
+.password .password-item{
+    margin-top: 7px;
+    font-size: 13px;
+}
+.button{
+    width: 280px;
+    height: 32;
+    background: #41ac52;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 32px;
+}
+ .button button{
+    display: inline-block;
+    width: 80px;
+    padding-right: 16px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+}
+.checkbox{
+    position: relative;
+    font-size: 13px;
+    margin: 10px 0;
+}
+ .checkbox .external{
+    position: absolute;
+    right: 0;
+    top: 4px;
+    color: #41ac52;
+}
+
+/* 页面边角 */
+.QR-login .bianjiao-1{
+    position: absolute;
+    top: -31px;
+    right: -9px;
+    width: 30px;
+    height: 30px;
+    background: url(../img/边角1.png)no-repeat 0 0/100%
+
+}
+.bianjiao-2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    right: 0;
+    background: url(../img/边角2.png)no-repeat 0 0/100%
+}
