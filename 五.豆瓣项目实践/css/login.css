@@ -14,9 +14,9 @@
     height: 300px;
     padding: 10px;
     padding-top: 30px;
-   
     box-sizing: border-box;
 }
+
 /* 短信登陆 */
 .container .login{
     width: 280px;
@@ -280,15 +280,19 @@ form .form-item .checkbox .fail{
     margin-bottom: 13px;
     /* line-height: 32px; */
     padding: 0 10px;
+    background: #fff;
 }
 .text .text-item{
     margin-top: 7px;
     font-size: 13px;
 }
+
+
 .password .password-item{
     margin-top: 7px;
     font-size: 13px;
 }
+
 .button{
     width: 280px;
     height: 32;
@@ -334,4 +338,18 @@ form .form-item .checkbox .fail{
     top: 0;
     right: 0;
     background: url(../img/边角2.png)no-repeat 0 0/100%
+}
+.bianjiao-2:hover+.xiaobiaoqian-1{
+    display: block;
+}
+.xiaobiaoqian-1{
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    top: 3px;
+    right: 39px;
+    background:#ebf5eb;
+    font-size: 13px;
+    color: #9b9b9b;
+    line-height: 25px;
 }

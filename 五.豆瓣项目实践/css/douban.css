@@ -15,6 +15,7 @@ button{
 .float-right{
     float: right;
 }
+
 /* 页头开始 */
 .header{
     height: 98px;  
@@ -136,7 +137,6 @@ button{
     position: relative;
     width: 950px;
     height: 304px;
-  
     margin: 0 auto;
 }
 .download-login-item .download{
@@ -195,13 +195,830 @@ button{
     height: 28px;
     position: absolute;
 }
-.download-login .download-login-item .login{
-   position: absolute;
-   top: 0;
-   right: 0;
-   width: 280px;
-   height: 300px;
-   background: #999;
+.download-login-item .loginarea{
+    width: 300px;
+    height: 300px;
+}
+/* 下载和登陆部分结束 */
+
+/*  内容-1部分开始  */
+.hot-1{
+    margin-top: 35px;
+    width: 100%;
+    background: #fff;
+}
+ .hot-1 .container{
+    
+    height: 526px;
+    padding-top: 0;
+    
+}
+.hot-1 .container .hot-right{
+    width: 265px;
+    height: 526px;
+    margin-left: 30px;
+    
+    /* line-height: 1.62px; */
+}
+.hot-1 .container .hot-right .adv-img img{
+    width: 250px;
+    height: 125px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/* 公共样式 */
+.M .container label{
+    font-size: 15px;
+    color: #072;
+}
+.M  .container a{
+    color: #37a;
+}
+.M  .container a:hover{
+    background: #37a;
+    color: #fff;
+}
+.M  .container a:active{
+    background: #f93;
+    color: #fff;
+}
+.M .container  a{
+    font-size: 12px;
+}
+.M .container .m-a{
+    font-size: 24px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+/* 公众样式结束 */
+.hot-1 .container .hot-right .top-item{
+    margin: 15px 0;
+}
+.hot-1 .container .hot-right .top-item a{
+    display: block;
+    font-size: 14px;
+   
+    /* line-height: 1.62px; */
+}
+.hot-1 .container .hot-right .top-item label{
+    display: block;
+    font-size: 13px;
+    color: #aaa;
+    margin-top: 5px;
+}
+.hot-1 .container .hot-right .top-item .adv a{
+    margin-bottom: 0;
+}
+.hot-1 .container .hot-main{
+    width: 655px;
+    height: 526px; 
+}
+.hot-1 .container .hot-main .hot-main-item{
+    margin: 10px 0;
+    
+}
+.hot-1 .container .hot-main .main-img{
+    width: 380px;
+    
 }
 
-/* 下载和登陆部分结束 */
+
+.hot-1 .container .hot-main .main-img .main-img-item{
+    
+    display: inline-block;
+    margin-right:5px;
+    margin-top: 10px;
+}
+.hot-1 .container .hot-main .main-img .main-img-item .img-item-02 a
+, .img-item-01 a{
+    color: #669;
+} 
+ 
+
+.hot-1 .container .hot-main .main-img .main-img-item label{
+    color: #999;
+    font-size: 12px;
+    
+}
+.hot-1 .container .hot-main .main-top{
+    width: 275px;
+    height: 526px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+.hot-1 .container .hot-main .main-top ul li.first div{
+    color:#999;
+    font-size: 12px;
+}
+.hot-1 .container .hot-main .main-top ul li.first p{
+    color: #666;
+    font-size: 12px;
+}
+.hot-1 .container .hot-main .main-top ul li{
+    display: block;
+    margin-top: 10px;
+}
+ /* 内容-1部分结束  */
+
+ /* 内容-2开始 */
+ .douban-time{
+     /* height: 592px; */
+     background: #f7f7f7;
+     padding: 40px 0px;
+ }
+ .douban-time .container{
+     /* height: 592px; */
+     
+     padding: 0;
+ }
+ .douban-time .container .douban-time-item a{
+     font-size: 24px;
+     margin-right: 20px;
+ }
+ .douban-time .container .edu{
+     overflow: hidden;
+     padding-top: 5px;
+    
+ }
+ .douban-time .container .edu-hot{
+    padding-bottom: 12px;
+ }
+
+ .douban-time .container .edu .time-main ul li{
+     display: inline-block;
+     width: 100px;
+     line-height: 1.38;
+     margin-right: 60px;
+     margin-bottom: 30px;
+     text-align: center;
+ }
+ .douban-time .container .edu .time-main ul li img{
+     width: 100px;
+     height: 141px;
+ }
+ .douban-time .container .edu .time-main ul li label{
+     display: block;
+     color: #999;
+ }
+ 
+ 
+ .douban-time .container .edu .time-main ul li a{
+     font-size: 13px;
+     color: #333;
+ }
+ .douban-time .container .edu .time-main ul li a:hover{
+     background: #f7f7f7;
+ }
+ .douban-time .container .edu .time-main ul li label{
+     font-size: 12px;
+     margin-top: 10px;
+ }
+ /* 第三部分开始 */
+ .douban-video{
+     background: #fff;
+     padding: 20px 0;
+ }
+.douban-video .video-item {
+    width: 100px;
+    height: 40px;
+    margin-right: 20px;
+}
+ .douban-video .video-item a{
+    
+     color: #494949;
+     
+     /* display: block; */
+ }
+ .douban-video .video-main{
+     overflow: hidden;
+ }
+ .douban-video .video-main .video-main-item a{
+     font-size: 15px;
+     color: #072;
+ }
+ .douban-video .video-main .video-main-item h2{
+     margin-bottom: 20px;
+ }
+ .douban-video .video-main .banzui ul{
+     margin-bottom: 25px;
+ }
+ .douban-video .video-main .banzui ul li{
+     display: inline-block;
+     width: 250px;
+     height: 140px;
+     margin-right: 30px;
+ }
+ .douban-video .video-main .banzui ul li:nth-child(3n){
+     margin-right: 0;
+ }
+ .douban-video .video-main .banzui ul li .banzui-video a img{
+     width: 250px;
+     height: 140px;
+}
+.douban-video .video-main .banzui ul li .banzui-video{
+    position: relative;
+    width: 250px;
+    height: 140px;
+    margin-bottom: 11px;
+}
+.douban-video .video-main .banzui ul li .banzui-video .img-off{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.25);
+    top: 0;
+    right: 0;
+    margin: auto;
+}
+.douban-video .video-main .banzui ul li .banzui-video .off{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+
+}
+.douban-video .video-main .banzui ul li a{
+    font-size: 13px;
+    color: #494949;
+    line-height: 1.54;
+}
+.douban-video .video-main .banzui ul li a:hover{
+    color: #fff;
+}
+/* 第三部分结束 */
+/* 第四部分开始 */
+.movie-area{
+    background: #f7f7f7;
+    padding: 20px 0 ;
+}
+.movie-area .movie-nav{
+    width: 100px;
+    margin-right: 20px;
+}
+.movie-area .movie-nav ul li{
+    width: 100px;
+    height: 22px;
+    margin-top: 5px;
+    line-height: 1.62;
+    position: relative;
+}
+.movie-area .movie-nav ul li a{
+    font-size: 14px;
+}
+.movie-area .movie-nav ul li a .new-img{
+    background: url(../img/new.gif)no-repeat ;
+    width: 20px;
+    height: 10px;
+    top: 0;
+    right: 35px;
+    /* margin: 0 auto; */
+    position: absolute;
+}
+.movie-area .movie-nav .m-a{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.movie-area .movie-kind{
+    width: 263px;
+    margin-left: 30px;
+}
+
+.movie-area .movie-kind .movie-kind-top{
+    margin-bottom: 12px;
+}
+.movie-area .movie-kind .all-movie-kind{
+    margin-bottom: 30px;
+}
+.movie-area .movie-kind .all-movie-kind ul li{
+    width: 48px;
+    display: inline-block;
+    line-height: 1.5;
+    margin-top: 4px;
+    text-align: left;
+}
+.movie-area .movie-kind .hot-movie-top ol li{
+    list-style-type: decimal;
+    list-style-position: inside;
+    font-size: 12px;
+    line-height: 1.5;
+    border-bottom: 1px solid #eaeaea;
+}
+.movie-area .movie-kind .hot-movie-top ol li a{
+    display: inline-block;
+    margin: 5px;
+}
+.movie-ticket{
+    overflow: hidden;
+    padding: 5px 0;
+}
+.movie-ticket .movie-kind-top{
+    margin-bottom: 12px;
+}
+.movie-ticket .movie-list ul li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 15px 40px 15px;
+}
+.movie-ticket .movie-list .poster .poster-movie{
+    background: url(../img/p.webp)no-repeat 0 0/100%;
+    width: 100px;
+    height: 147px;
+    /* top: 0;
+    right: 0;
+    margin: auto; */
+    margin-bottom: 10px;
+}
+.movie-ticket .movie-list ul li .name{
+    color: #333;
+    font-size: 13px;
+    display: inline-block;
+    width: 100px;
+    display: block;
+    margin-bottom: 4px;
+}
+.movie-ticket .movie-list ul li .name:hover{
+    color: #fff;
+}
+.movie-ticket .movie-list ul li .assess{
+    margin-bottom: 4px;
+}
+.movie-ticket .movie-list ul li .assess label{
+    display: inline-block;
+    width: 55px;
+    height: 11px;
+    background: url(../img/ic.png)no-repeat 0 -11px/100%;
+}
+.movie-ticket .movie-list ul li .assess i{
+    font-size: 12px;
+    margin-left: 4px;
+    color: #e09015;
+}
+.movie-ticket .movie-list ul li .ticket{
+    display: inline-block;
+    padding: 6px 11px;
+    background: #047fcb;
+    color: #fff;
+
+}
+/* 第四部分结束 */
+/* 第五部分开始 */
+.topic{
+    background: #fff;
+    padding: 20px 0;
+}
+.topic .topic-group a{
+    width: 100px;
+    margin-right: 20px;
+    color:  #017a85;
+}
+.topic .topic-group ul li{
+    width: 100px;
+    height: 22px;
+    margin-top: 5px;
+    line-height: 1.62;
+}
+.topic .topic-group ul li a{
+    font-size: 14px;
+    
+}
+.topic .topic-group .m-a{
+    display: inline-block;
+    margin-bottom: 5px;
+    
+}
+.topic .group-kind{
+    width: 265px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.topic .group-kind .interest-kind{
+    margin-bottom: 10px;
+}
+.topic .group-kind .interest-kind ul li{
+    display: inline-block;
+    line-height: 1.2;
+    margin-right: 10px;
+}
+.topic .group-kind .interest-kind ul li.interest{
+    display: block;
+    margin: 20px 0 4px 0px;
+}
+.topic .group-kind .interest-kind ul li.interest a{
+    color: #333;
+    font-size: 14px;
+}
+.main-group{
+    overflow: hidden;
+}
+.main-group .group-theme{
+    margin: 20px 0;
+}
+.main-group .group-theme ul li{
+    width: 248px;
+    display: inline-block;
+    margin-right: 17px;
+    margin-bottom: 35px;
+}
+.main-group .group-theme ul li .theme-img{
+    width: 48px;
+    height: 48px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.main-group .group-theme ul li .theme-img a:hover{
+    background: #fff;
+}
+.main-group .group-theme ul li .theme-img a img{
+    width: 48px;
+    height: 48px;
+}
+.main-group .group-theme ul li .theme-name .theme-name-help{
+    display: block; 
+    margin-bottom: 8px;
+}
+.main-group .group-theme ul li .theme-name .theme-name-help a{
+    font-size: 13px;
+    color:#017a85; 
+}
+.main-group .group-theme ul li .theme-name .theme-name-help a:hover{
+    color: #fff;
+}
+.main-group .group-theme ul li .theme-name i{
+    color: #999;
+    font-size: 12px;
+}
+/* 第五部分结束 */
+/* 第六部分开始 */
+.read{
+    background: #f7f7f7;
+    padding-bottom: 30px;
+}
+.read .read-book a{
+    width: 100px;
+    margin-right: 20px;
+    color: #4a2f14;
+}
+.read .read-book ul li{
+    width: 100px;
+    height: 22px;
+    margin-top: 5px;
+    line-height: 1.62;
+    position: relative;
+}
+.read .read-book  a.m-a{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.read .read-book ul li a{
+    color: #4a2f14;
+    font-size: 14px;
+}
+.read .read-book ul li .new-img{
+    background: url(../img/new.gif)no-repeat ;
+    width: 20px;
+    height: 10px;
+    top: 10;
+    right: 50px;
+    position: absolute;
+}
+.read .read-book .douban-read{
+    margin-top: 20px;
+}
+.read .read-book .douban-read  .read-img a{
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: url(../img/read.jpg)no-repeat;
+    box-shadow: 1px 1px 2px #999;
+    border-radius: 10px;
+}
+.read .hot-lable{
+    width: 265px;
+}
+.read .hot-lable .hot-lable-title{
+    margin-bottom: 3px;
+}
+.read .hot-lable .book-kind ul li{
+    display: inline-block;
+}
+.read .hot-lable .book-kind ul li a{
+    color: #4a2f14;
+    margin-right: 10px;
+}
+.read .hot-lable .book-kind  .pho a{
+    color: #999;
+}
+.read .hot-lable .book-kind {
+    padding: 12px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+.read .new-book{
+    overflow: hidden;
+}
+.read .new-book .main-read ul li{
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    margin: 15px 15px;
+}
+.read .new-book .main-read ul li .book-poster{
+    height: 148px;
+    margin-bottom: 10px;
+}
+.read .new-book .main-read ul li .book-poster a img{
+    width: 100px;
+}
+.read .new-book .main-read ul li .book-poster a:hover{
+    background: #f7f7f7;
+}
+.read .new-book .main-read ul li .book-name{
+    display: inline-block;
+    color: #614e3c;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.read .new-book .main-read ul li .book-name:hover{
+    color: #fff;
+}
+.read .new-book .main-read ul li .author{
+    font-size: 12px;
+    color: #111;
+}
+.read .new-book .main-read ul li .free{
+    display: inline-block;
+    padding: 5px 10px;
+    background: #999a95;
+    margin-top: 5px;
+    border-radius: 2px;
+    color: #fff;
+}
+.read .new-book .main-read ul li .free:hover{
+    background: #878882;
+}
+.read .new-book  .original{
+    margin-top: 20px;
+}
+
+/* 第六部分结束 */
+/* 第七部分开始 */
+.music{
+    background: #fff;
+    padding-bottom: 30px;
+}
+.music .container a{
+    color: #555d53;
+}
+.music .music-nav {
+    width: 100px;
+    margin-right: 20px;
+    
+}
+.music .music-nav .m-a{
+    color: #f38c00;
+    
+}
+.music .music-nav ul li{
+    width: 100px;
+    height: 22px;
+    margin-top: 5px;
+    line-height: 1.62;
+} 
+.music .music-nav ul li a{
+    color: #555d53;
+    font-size: 14px;
+}
+.music .music-nav .douabn-FM-img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.music .music-nav .douabn-FM-img .douban-FM a{
+    display: block;
+    background: url(../img/read.jpg)no-repeat -250px 0px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 1px 2px #999;
+    border-radius: 10px;  
+}
+.music .music-nav .douabn-FM-img .FM{
+    color: #555d53;
+}
+.music .music-nav .douban-m-img{
+    margin-top: 20px;
+}
+.music .music-nav .douban-m-img .douban-musician a{
+    display: block;
+    background: url(../img/read.jpg)no-repeat -50px 0px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 1px 2px #999;
+    border-radius: 10px;
+}
+.music .music-nav .douban-m-img .musician{
+    color: #555d53;
+}
+.music .week-popular-musician{
+    width: 265px;
+}
+.music .week-popular-musician .popular-musician ul li{
+    margin: 20px 0;
+}
+.music .week-popular-musician .popular-musician ul li .nu{
+    color: #111;
+    font-size: 12px;
+    width: 10px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+.music .week-popular-musician .popular-musician ul li .infor{
+    display: inline-block;
+    width: 50px;
+    margin-right: 5px;
+}
+.music .week-popular-musician .popular-musician ul li .player{
+    display: inline-block;
+    width: 150px;
+    font-size: 12px;
+    color: #999;
+    height: 61px;
+    
+}
+.music .week-popular-musician .popular-musician ul li .infor .player-img{
+    width: 48px;
+    height: 48px;
+    position: relative;
+}
+.music .week-popular-musician .popular-musician ul li .infor .player-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.music .week-popular-musician .popular-musician ul li .infor .player-img::before{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0px;
+    line-height: 48px;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 12px;
+}
+.music .week-popular-musician .popular-musician ul li .infor .player-img:hover::before{
+    display: block;
+}
+.music .week-popular-musician .popular-musician ul li .player .player-name{
+    display: block;
+    color: #555d53;  
+    margin-bottom: 10px;
+}
+.music .week-popular-musician .popular-musician ul li .player .music-kind{
+    display: block;
+    margin-bottom: 5px;
+}
+.music .disc-list{
+    overflow: hidden;
+}
+.music .disc-list .disc ul li{
+    width: 130px;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+}
+.music .disc-list .disc ul li a img{
+    height: 80px;
+}
+.music .disc-list .disc ul li a.cai-img:hover{
+    background: #fff;
+}
+.music .disc-list .disc ul li .disc-inf .disc-name{
+    margin-top: 5px;
+}
+.music .disc-list .disc ul li .disc-inf .disc-name i{
+     font-size: 12px;
+}
+.music .disc-list .disc ul li .disc-inf .disc-author{
+    display: inline-block;
+    margin-top: 5px;
+}
+.music .disc-list .disc ul li .disc-inf .disc-assess-img{
+    margin-top: 4px;
+}
+.music .disc-list .disc ul li .disc-inf .disc-assess-img img{
+    display: inline-block;
+    width: 55px;
+    height: 11px;
+    background: url(../img/ic.png)no-repeat;
+    background-position-y: -44px;
+}
+.music .disc-list .disc ul li .disc-inf .disc-assess-img i{
+    color: #e09015;
+    font-size: 12px;
+}
+.music .disc-list .hot-music-list{
+    margin: 30px 0 20px 0;
+}
+.music .disc-list .hot-mu ul li{
+     width: 132px;
+     text-align: center;
+     display: inline-block;
+     margin-bottom: 60px;
+}
+.music .disc-list .hot-mu ul li .mu-poster {
+     width: 80px;
+     height: 80px;
+     margin: 0 auto;
+     position: relative;
+}
+.music .disc-list .hot-mu ul li .mu-poster .mu-po{
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+.music .disc-list .hot-mu ul li .mu-poster .stop{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.music .disc-list .hot-mu ul li i{
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 15px;
+}
+/* 第七部分结束 */
+/* 第八部分开始 */
+.ware {
+    background: #f7f7f7;
+    padding-bottom: 30px;
+}
+.ware .container a{
+    color: #3377A9;
+}
+.ware .dou-ware{
+    width: 100px;
+    margin-right: 20px;
+}
+.ware .dou-ware .m-a{
+    color: #1f9432;
+}
+.ware .hot-act{
+    width: 265px;
+}
+.ware .hot-act .act{
+    margin-bottom: 14px;
+}
+.ware .hot-act .act-img img{
+    width: 265px;
+    height: 95px;
+    display: block;
+}
+.ware .hot-act .act-img a.my-douban{
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px 0;
+    color: #3377A9;
+}
+.ware .hot-act .act-img a.my-douban:hover{
+    color: #fff;
+}
+.ware .hot-act .official{
+    margin-top: 30px;
+}
+.ware .hot-ware{
+    overflow: hidden;
+}
+.ware .hot-ware .hot-ware-title{
+    margin-bottom: 14px;
+}
+.ware .hot-ware ul li{
+    width: 240px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.ware .hot-ware ul li .douban-goods:hover{
+    background: #f7f7f7;
+}
+.ware .hot-ware ul li .douban-goods img{
+    width: 240px;
+}
+.ware .hot-ware ul li .ware-name-price{
+    margin-top: 10px;
+}
+.ware .hot-ware ul li .ware-name-price .ware-name{
+    font-size: 16px;
+}
+.ware .hot-ware ul li .ware-name-price .price{
+    color: #E55457;
+}
+/* 第八部分结束 */

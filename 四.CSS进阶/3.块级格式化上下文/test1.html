@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+        .clearfix::after{
+             content: "";
+             display: block;
+             clear: both;
+}
          .float{
                 float: left;
                 width: 100px;
@@ -15,18 +20,26 @@
               
             }
             .container{
+                width: 300px;
                    height: 200px;
                 background: #008c8c;
                 overflow: hidden;
                 
             }
+            .con{
+                width: 900px;
+                background: #ccc;
+
+
+            }
            
             </style>
 </head>
 <body>
+    <div class="con clearfix">
         <div class="float"></div>
         <div class="container"></div>
-                
+    </div>    
             
 </body>
 </html>
