@@ -1022,3 +1022,131 @@ button{
     color: #E55457;
 }
 /* 第八部分结束 */
+/* 第九部分开始  */
+.major-act{
+    background: #fff;
+    
+}
+.major-act .container{
+    border-bottom: 1px dashed #dcdcdc;
+    padding-bottom: 30px;
+}
+.major-act .container a{
+    color: #643;
+}
+.major-act .common-city{
+    width: 100px;
+    margin-right: 20px;
+}
+.major-act .common-city .m-a{
+    color: #ec5303;
+}
+.major-act .common-city ul li{
+    width: 100px;
+    height: 22px;
+    margin-top: 5px;
+    line-height: 1.62;
+}
+.major-act .common-city ul li a{
+    font-size: 14px;
+}
+.major-act .act-lable{
+    width: 265px;
+}
+.major-act .act-lable .official{
+    margin-bottom: 12px;
+}
+.major-act .act-lable .festival{
+    margin-bottom: 10px;
+}
+.major-act .act-lable .festival ul li a{
+    font-size: 14px;
+    display: inline-block;
+}
+.major-act .act-lable .festival ul .music-festival{
+    display: block;
+    
+} 
+.major-act .act-lable .festival ul li{
+    display: inline-block;
+    margin-right: 5px;
+    line-height: 1.5;
+}
+.major-act .major-hot-act{
+    overflow: hidden;
+}
+.major-act .major-hot-act .beijin-act{
+    margin-bottom: 20px;
+}
+.major-act .major-hot-act .vocal-concert{
+    width: 240px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.major-act .major-hot-act .vocal-concert .vocal-poster a:hover{
+    background: #fff;
+}
+.major-act .major-hot-act .vocal-concert .vocal-inf{
+    line-height: 1.62;
+}
+.major-act .major-hot-act .vocal-concert .vocal-inf a{
+    font-size: 13px;
+    display: inline-block;
+}
+.major-act .major-hot-act .vocal-concert .vocal-inf i{
+    font-size: 12px;
+    display: block;
+}
+/* 第九部分结束 */
+/* 页尾开始 */
+.page-footing{
+    background: #fff;
+}
+.page-footing .container a{
+    color: #37a;
+}
+.page-footing .container{
+    padding-top: 10px;
+}
+.page-footing .container .allow{
+    width: 430px;
+}
+.page-footing .container .allow ul li{
+    line-height: 1.2;
+}
+.page-footing .container .allow ul li i{
+    font-size: 12px;
+    color: #999;
+}
+
+
+.page-footing .container .allow ul li a:hover{
+    color: #fff;
+}
+.page-footing .container .allow ul li .biaoshi{
+    width: 15px;
+    height: 17px;
+    display: inline-block;
+    background: url(../img/biaoshi.gif)no-repeat;
+}
+.page-footing .container .allow ul li .baojing{
+    width: 117px;
+    height: 16px;
+    vertical-align: middle;
+    display: inline-block;
+    background: url(../img/baojing.png)no-repeat 0 -1px/100%;
+}
+.page-footing .container .allow ul li .jubao{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../img/jubao.png)no-repeat 0 1px /100%;
+}
+.page-footing .container .about-douban .hai{
+    display: block;
+    margin: 30px 0;
+    
+}
+/* 页尾结束  */
